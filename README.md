@@ -13,11 +13,14 @@
 - Plot available at [curse_of_dim.png](plots/curse_of_dim.png)
 - Animated _gif_ available at [curse_of_dim_final.gif](curse_of_dim_gif_plots/curse_of_dim_final.gif)
 
-# t-SNE
+## ISOMAP
+- Code available at [iso.py](code/iso.py)
+
+## t-SNE
 - Code files available at [tsne.py](code/tsne.py) and [t-SNE.ipynb](code/t-SNE.ipynb)
 - Plot available at [t-SNE.png](plots/t-SNE.png)
 - Animated _gif_ available at [MNIST.gif](plots/MNIST.gif)
 
-# ML-DL
+## ML-DL
 - Code files available at [ML-DL](code/ML-DL)
 - Some example plots available
