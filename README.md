@@ -17,3 +17,7 @@
 - Code files available at [tsne.py](code/tsne.py) and [t-SNE.ipynb](code/t-SNE.ipynb)
 - Plot available at [t-SNE.png](plots/t-SNE.png)
 - Animated _gif_ available at [MNIST.gif](plots/MNIST.gif)
+
+# ML-DL
+- Code files available at [ML-DL](code/ML-DL)
+- Some example plots available
