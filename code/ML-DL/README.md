@@ -1,4 +1,36 @@
+# Markov-Lipschitz Deep Learning (MLDL)
 
+The code includes the following modules:
+* Datasets (Swiss Roll, S-Curve, MNIST, Spheres)
+* Training for ML-Enc and ML-AE (ML-Enc + ML-Dec)
+* Test for manifold learning (ML-Enc) 
+* Test for manifold generation (ML-Dec) 
+* Visualization
+* Evaluation metrics
+
+## Requirements
+
+* pytorch == 1.3.1
+* scipy == 1.4.1
+* numpy == 1.18.5
+* scikit-learn == 0.21.3
+* csv == 1.0
+* matplotlib == 3.1.1
+* imageio == 2.6.0
+
+To choose a dataset among SwissRoll, Scurve, MNIST, Spheres5500 and Spheres10000 for tow modes (ML-Enc and ML-AE)
+
+  ```
+  python main.py -D "dataset name" -M "mode"
+  ```
+
+To test the manifold generation
+  ```
+  python main.py -M Generation
+  ```
+
+
+<!---
 # Markov-Lipschitz Deep Learning (MLDL)
 
 
@@ -219,3 +251,4 @@ The results are available in `./pic/file_name/Generation.png`
 If you have any issue about the implementation, please feel free to contact us by email:  
 * Zelin Zang: zangzelin@westlake.edu.cn
 * Lirong Wu: wulirong@westlake.edu.cn
+-->
