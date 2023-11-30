@@ -23,4 +23,4 @@
 
 ## ML-DL
 - Code files available at [ML-DL](code/ML-DL)
-- Some example plots available
+- Plots available at [ML-DL Plots](plots/MLDL_plots)
