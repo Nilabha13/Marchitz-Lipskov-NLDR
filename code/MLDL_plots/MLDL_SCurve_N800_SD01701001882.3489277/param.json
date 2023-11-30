@@ -1,0 +1,36 @@
+{
+  "name": null,
+  "ParamPath": "None",
+  "Mode": "ML-Enc",
+  "DATASET": "SCurve",
+  "LEARNINGRATE": 0.001,
+  "BATCHSIZE": 800,
+  "RegularB": 3,
+  "N_Dataset": 800,
+  "GradualChanging": [
+    500,
+    1000
+  ],
+  "ratio": [
+    0.2,
+    1.0,
+    0.0,
+    1.0
+  ],
+  "Epsilon": 0.23,
+  "MAEK": 15,
+  "EPOCHS": 10000,
+  "PlotForloop": 1000,
+  "SEED": 0,
+  "NetworkStructure": [
+    3,
+    100,
+    100,
+    100,
+    3,
+    2
+  ],
+  "Noise": 0.0,
+  "Train_MultiRun": false,
+  "Visualization": false
+}
